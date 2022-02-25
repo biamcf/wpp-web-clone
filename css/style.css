@@ -10,12 +10,6 @@ body {
     width: 100%;
 }
 
-.icon {
-    width: 24px;
-    height: 24px;
-    position: absolute;
-}
-
 .left-side .header .icons {
     position: absolute;
     right: 20px;
@@ -24,6 +18,13 @@ body {
     height: 40px;
     box-sizing: border-box;
 }
+
+.icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+}
+
 
 .left-side .header .icons .icon:first-child {
     left: 0;
