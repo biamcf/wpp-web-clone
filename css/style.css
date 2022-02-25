@@ -10,6 +10,32 @@ body {
     width: 100%;
 }
 
+.icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+}
+
+.left-side .header .icons {
+    position: absolute;
+    right: 20px;
+    top: 18px;
+    width: 128px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.left-side .header .icons .icon:first-child {
+    left: 0;
+}
+
+.left-side .header .icons .icon:nth-child(2) {
+    right: 51px;
+}
+
+.left-side .header .icons .icon:last-child {
+    right: 0;
+}
 
 .left-side {
     border-right: 1px solid lightgrey;
@@ -24,6 +50,24 @@ body {
     background-image: url("../img/bg.png");
     display: flex;
     width: 70%;
+}
+
+.right-side .header .icons {
+    position: absolute;
+    right: 20px;
+    top: 18px;
+    width: 70px;
+    height: 40px;
+    box-sizing: border-box;
+    margin-right: 2px;
+
+}
+
+.right-side .header .icons .icon:first-child {
+    left: 0;
+}
+.right-side .header .icons .icon:last-child {
+    right: 0;
 }
 
 .input {
