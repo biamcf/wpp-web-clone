@@ -91,6 +91,23 @@ body {
     left: 40px;
 }
 
+.input-msg {
+    position: absolute;
+    box-sizing: border-box;
+    left: 102px;
+    height: 42px;
+    top: 8px;
+    width: 790px;
+    border-radius: 8px;
+    border-style: none;
+    padding-left: 18px;
+    font-size: 15px;
+}
+
+.input-msg:focus {
+    outline: none;
+}
+
 .icon-mic {
     position: absolute;
     right: 20px;
