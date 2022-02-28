@@ -77,4 +77,22 @@ body {
     height: 60px;
     position: absolute;
     width: 69.98%;
+    box-sizing: border-box;
+}
+
+.right-side .input .icons-left {
+    position: absolute;
+    left: 20px;
+    top: 18px;
+    
+}
+
+.right-side .input .icons-left .icon:last-child {
+    left: 40px;
+}
+
+.icon-mic {
+    position: absolute;
+    right: 20px;
+    top: 18px;
 }
